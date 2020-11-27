@@ -5,7 +5,7 @@
         <meta name="viewport" content="width-device-width, initial-scale=1.0, shirt-to-fit=no">
         <title>Pagina</title>
         <?php
-        require_once('Public/includes/scripts.php');
+        require_once('/includes/scripts.php');
         if (!isset($_SESSION)) session_start();
         if (!isset($_SESSION['Active']))$_SESSION['Active'] = false;
         ?>
